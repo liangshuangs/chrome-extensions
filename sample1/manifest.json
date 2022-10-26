@@ -10,13 +10,15 @@
     "permissions": [
         "contextMenus",
         "activeTab",
-        "tabGroups"
+        "tabGroups",
+        "declarativeContent",
+        "storage"
     ],
     "host_permissions": ["https://sjh.baidu.com/site/*"],
     "content_scripts": [
         {
             "js": ["scripts/content.js"],
-            "matches": ["https://sjh.baidu.com/site/*"]
+            "matches": ["<all_urls>"]
         }
     ],
     "background": {

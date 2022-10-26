@@ -1,2 +1,2 @@
-const article = document.querySelector("article");
-console.log(article, 'article')
+// const article = document.querySelector("article");
+// console.log(article, 'article')
